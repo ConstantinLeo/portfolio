@@ -1,5 +1,5 @@
 # Bienvenue sur mon Portfolio !
-Via [ce lien](https://constantinleo.github.io/portfolio/), vous pourrez découvrir :
+Via [mon portfolio](https://constantinleo.github.io/portfolio/), vous pourrez découvrir :
 - mon profil et mes compétences
 - les projets que j'ai réalisé
 - mes expériences et ma formation
