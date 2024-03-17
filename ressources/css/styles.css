@@ -23,12 +23,12 @@ header h1 {
     justify-content: space-between;
     align-items: stretch;
     height: 100vh;
+    text-align: center;
 }
 
 .categorie {
-    flex-basis: calc(50% - 20px);
+    flex-basis: 40%;
     cursor: pointer;
-    width: 40%;
     height: 200px;
     background-color: #FF4A1C;
     margin: 20px;

@@ -8,18 +8,18 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Actions sur le site
     titre.addEventListener('click', function() {
-        window.open('index.html');
+        window.open('index.html','_self');
     });
     profil.addEventListener('click', function() {
-        window.open('./pages/profil.html');
+        window.open('./pages/profil.html','_self');
     });
     projets.addEventListener('click', function() {
-        window.open('./pages/projets.html');
+        window.open('./pages/projets.html','_self');
     });
     experiences.addEventListener('click', function() {
-        window.open('./pages/experiences.html');
+        window.open('./pages/experiences.html','_self');
     });
     formation.addEventListener('click', function() {
-        window.open('./pages/formation.html');
+        window.open('./pages/formation.html','_self');
     });
 });
