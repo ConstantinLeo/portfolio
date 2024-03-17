@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #5F0A87;
+    color: white;
+}
+
+header {
+    background-color: transparent;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 35px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.categorie {
+    width: 200px;
+    height: 200px;
+    background-color: #FF4A1C;
+    margin: 20px;
+    border: 4px solid #000000;
+    border-image: linear-gradient(135deg, #5F0A87, #FF4A1C) 1;
+    transition: transform 0.3s ease;
+}
+
+.categorie:hover {
+    transform: scale(1.1);
+}
+
+footer {
+    background-color: #000000;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.reseaux {
+    margin-bottom: 10px;
+}
+
+.reseaux img {
+    width: 30px;
+    height: auto;
+    margin: 0 5px;
+}
