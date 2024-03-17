@@ -16,15 +16,6 @@ header h1 {
     font-size: 35px;
 }
 
-.titre h1::after {
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    height: 1px;
-    background: linear-gradient(to left, transparent, #ffffff, transparent);
-}
-
 .conteneur-categories {
     display: flex;
     flex-wrap: wrap;
