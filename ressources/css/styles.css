@@ -51,6 +51,42 @@ header h1:hover {
     transform: scale(1.1);
 }
 
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #5F0A87;
+    color: white;
+    padding: 10px 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-categories {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-categories a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+.nav-categories a:hover {
+    text-decoration: underline;
+    transition-duration: 1s;
+}
+
+.contact img {
+    width: 30px;
+    height: 30px;
+}
+
 footer {
     width: 100%;
     position: absolute;
