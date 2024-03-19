@@ -10,21 +10,24 @@ header {
     background-color: transparent;
     text-align: center;
     padding: 20px 0;
-    display: inline-block;
 }
 
 header h1 {
     font-size: 35px;
     cursor: pointer;
-    background: linear-gradient(to top, rgba(255, 0, 0, 0.5) 0%, rgba(255, 0, 0, 0.5) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
+}
+
+header h1:hover {
+    color: #FF4A1C;
+    transition-duration: 1s;
 }
 
 .conteneur-categories {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     align-items: stretch;
-    height: 100vh;
+    height: 50vh;
     text-align: center;
 }
 
@@ -32,7 +35,7 @@ header h1 {
     flex-basis: 40%;
     cursor: pointer;
     font-size: 3em;
-    height: 25vh;
+    height: 20vh;
     background-color: #FF4A1C;
     padding: 20px;
     border: 4px solid #000000;
@@ -65,8 +68,4 @@ footer {
     width: 30px;
     height: auto;
     margin: 0 5px;
-}
-
-header a {
-  text-decoration: none;
 }
