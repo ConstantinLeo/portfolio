@@ -9,7 +9,7 @@ body {
 header {
     background-color: transparent;
     text-align: center;
-    padding: 20px 0;
+    padding: 10px 0;
 }
 
 header h1 {
@@ -66,15 +66,19 @@ header h1:hover {
     justify-content: center;
 }
 
-.nav-categories a {
-    color: white;
-    text-decoration: none;
-    margin: 0 20px;
+main {
+    margin: 30px;
+    padding: 15px;
+    font-family: Arial, serif;
 }
 
-.nav-categories a:hover {
-    text-decoration: underline;
-    transition-duration: 1s;
+main p {
+    margin-bottom: 20px;
+}
+
+main p::first-letter {
+    font-size: 20px;
+    color: #FF4A1C;
 }
 
 footer {
