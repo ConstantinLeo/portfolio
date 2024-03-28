@@ -23,6 +23,13 @@ header h1:hover {
     transition-duration: 1s;
 }
 
+header a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin: 0 5px;
+}
+
 .conteneur-categories {
     display: flex;
     flex-wrap: wrap;
@@ -39,7 +46,7 @@ header h1:hover {
     height: 20vh;
     background-color: #FF4A1C;
     padding: 20px;
-    border: 4px solid #000000;
+    border: 4px solid #ffffff;
     box-shadow:
             0 0 8px #fff,
             inset 0 0 8px #fff,
@@ -84,7 +91,7 @@ main p {
     margin-bottom: 20px;
 }
 
-main p::first-letter {
+.corps p::first-letter {
     font-size: 20px;
     color: #FF4A1C;
 }
