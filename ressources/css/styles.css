@@ -4,6 +4,7 @@ body {
     padding: 0;
     background-color: #5F0A87;
     color: white;
+    scroll-behavior: smooth;
 }
 
 header {
@@ -94,6 +95,14 @@ main p {
 main img {
     max-width: 100%;
     height: auto;
+}
+
+main a {
+    color: white;
+}
+
+main a:visited {
+    color: grey;
 }
 
 .corps {
