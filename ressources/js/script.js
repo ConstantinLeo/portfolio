@@ -4,18 +4,17 @@
  */
 const dev = false;
 let urlDev = ""; // variable à ne pas toucher
+// Partie développeur (url changeante selon le mode)
+if (dev) {
+    urlDev = "/";
+} else {
+    urlDev = "/portfolio/"
+}
 
 /**
  * Cette partie s'exécute lorsque tout le site a terminé de charger
  */
 document.addEventListener('DOMContentLoaded', function() {
-    // Partie développeur (url changeante selon le mode)
-    if (dev) {
-        urlDev = "/";
-    } else {
-        urlDev = "/portfolio/"
-    }
-
     // Eléments du site
     const titre = document.getElementById('titre');
 
