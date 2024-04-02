@@ -1,25 +1,36 @@
+/**
+ * Cette constante permet de basculer d'un état de développeur à un état produit
+ * @type {boolean}
+ */
+const dev = true;
+let urlDev = ""; // variable à ne pas toucher
+
+/**
+ * Cette partie s'exécute lorsque tout le site a terminé de charger
+ */
 document.addEventListener('DOMContentLoaded', function() {
+    // Partie développeur (url changeante selon le mode)
+    if (dev) {
+        urlDev = "/";
+    } else {
+        urlDev = "/portfolio/"
+    }
+
     // Eléments du site
     const titre = document.getElementById('titre');
-    const profil = document.getElementById('profil');
-    const projets = document.getElementById('projets');
-    const experiences = document.getElementById('experiences');
-    const formation = document.getElementById('formation');
 
     // Actions sur le site
     titre.addEventListener('click', function() {
-        window.open('/portfolio/index.html','_self');
-    });
-    profil.addEventListener('click', function() {
-        window.open('/portfolio/pages/profil.html','_self');
-    });
-    projets.addEventListener('click', function() {
-        window.open('/portfolio/pages/projets.html','_self');
-    });
-    experiences.addEventListener('click', function() {
-        window.open('/portfolio/pages/experiences.html','_self');
-    });
-    formation.addEventListener('click', function() {
-        window.open('/portfolio/pages/formation.html','_self');
+        window.open(urlDev + 'index.html','_self');
     });
 });
+
+/**
+ * Cette fonction ouvre la page qui a été cliqué sur le site
+ * @param elementClique
+ */
+function navigationCurseur(elementClique) {
+    const nomPage = elementClique.id;
+    const url = urlDev + "pages/"+ nomPage + ".html";
+    window.open(url,'_self');
+}
