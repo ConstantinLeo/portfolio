@@ -2,7 +2,7 @@
  * Cette constante permet de basculer d'un état de développeur à un état produit
  * @type {boolean}
  */
-const dev = true;
+const dev = false;
 let urlDev = ""; // variable à ne pas toucher
 
 /**

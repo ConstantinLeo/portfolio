@@ -8,6 +8,8 @@ body {
     padding: 0;
     background-color: #5F0A87;
     color: white;
+    display: flex;
+    flex-direction: column;
 }
 
 header {
@@ -15,6 +17,7 @@ header {
     text-align: center;
     padding: 10px 0;
     box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    text-shadow: 0 0 54px rgba(255,74,28,0.7);
 }
 
 header h1 {
@@ -24,6 +27,7 @@ header h1 {
 
 header h1:hover {
     color: #FF4A1C;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
     transition-duration: 1s;
 }
 
@@ -85,9 +89,14 @@ header a {
     justify-content: center;
 }
 
+.nav-element:hover {
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    color: #FF4A1C;
+}
+
 main {
     margin: 30px;
-    padding: 15px;
+    padding: 10px 10px 10px 30px;
     font-family: Arial, serif;
 }
 
@@ -104,26 +113,27 @@ main a {
     color: white;
 }
 
-main a:visited {
-    color: grey;
-}
-
 .corps {
     text-align: justify;
 }
 
 .corps p::first-letter {
     font-size: 20px;
-    color: #FF4A1C;
+    color: #ffffff;
+    font-weight: bold;
 }
 
 footer {
     width: 100%;
-    position: fixed;
-    bottom: 0;
+    margin-top: auto;
     background-color: #000000;
     text-align: center;
-    padding-top: 20px;
+    padding: 20px 0 10px 0;
+}
+
+footer.accueil{
+    position: fixed;
+    bottom: 0;
 }
 
 .reseaux {
@@ -134,4 +144,20 @@ footer {
     width: 30px;
     height: auto;
     margin: 0 5px;
+}
+
+.conteneur-texte {
+    background-color: rgba(255,74,28,0.7);
+    padding: 20px;
+    margin: 10px;
+    border: 2px solid white;
+    box-shadow: black 0 0 25px 0;
+}
+
+.actions {
+    font-weight: bold;
+}
+
+.competencesAcqueries {
+    font-style: italic;
 }
