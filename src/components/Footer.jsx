@@ -1,11 +1,11 @@
-import { Link } from 'react-router-dom';
+import React from 'react';
 
-function Footer() {
+const Footer = () => {
     return (
-        <footer className="bg-purple-700 text-white p-5">
-            <p>bonjour</p>
+        <footer>
+            <p>&copy; {new Date().getFullYear()} Léo CONSTANTIN. Tous droits réservés.</p>
         </footer>
     );
-}
+};
 
 export default Footer;
