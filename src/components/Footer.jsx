@@ -28,10 +28,10 @@ function Footer() {
                     <a href="/documents/CV-CONSTANTIN-Leo.pdf" target="_blank" rel="noopener noreferrer" className="hover:text-burnt-orange">
                         <FaFilePdf size={24} />
                     </a>
-                    <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="hover:text-burnt-orange">
+                    <a href="https://linkedin.com/in/leo-constantin" target="_blank" rel="noopener noreferrer" className="hover:text-burnt-orange">
                         <FaLinkedin size={24} />
                     </a>
-                    <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="hover:text-burnt-orange">
+                    <a href="https://github.com/ConstantinLeo" target="_blank" rel="noopener noreferrer" className="hover:text-burnt-orange">
                         <FaGithub size={24} />
                     </a>
                 </div>
