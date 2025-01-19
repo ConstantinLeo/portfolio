@@ -28,7 +28,7 @@ function Header() {
             </div>
             {menuOpen && (
                 <div className="md:hidden bg-gray-50 shadow-md">
-                    <nav className="flex flex-col space-y-2 p-4">
+                    <nav className="flex items-center flex-col space-y-2 p-4">
                         <Link to="/" className="hover:text-burnt-orange" onClick={() => setMenuOpen(false)}>Accueil</Link>
                         <Link to="/formation" className="hover:text-burnt-orange" onClick={() => setMenuOpen(false)}>Formation</Link>
                         <Link to="/experience" className="hover:text-burnt-orange" onClick={() => setMenuOpen(false)}>Expériences</Link>

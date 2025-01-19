@@ -7,7 +7,7 @@ function Footer() {
         <footer className="bg-white-smoke py-6 border-t">
             <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-6 items-center">
                 {/* Pages du site */}
-                <div className="space-y-2">
+                <div className="space-y-2 text-center">
                     <Link to="/" className="block text-slate-gray hover:text-burnt-orange">Accueil</Link>
                     <Link to="/formation" className="block text-slate-gray hover:text-burnt-orange">Formation</Link>
                     <Link to="/experience" className="block text-slate-gray hover:text-burnt-orange">Expériences</Link>
