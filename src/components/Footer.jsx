@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { FaLinkedin, FaGithub } from "react-icons/fa";
+import { FaFilePdf, FaLinkedin, FaGithub } from "react-icons/fa";
 
 function Footer() {
     return (
@@ -25,6 +25,9 @@ function Footer() {
 
                 {/* Réseaux sociaux */}
                 <div className="flex justify-center md:justify-end space-x-4">
+                    <a href="/documents/CV-CONSTANTIN-Leo.pdf" target="_blank" rel="noopener noreferrer" className="hover:text-burnt-orange">
+                        <FaFilePdf size={24} />
+                    </a>
                     <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="hover:text-burnt-orange">
                         <FaLinkedin size={24} />
                     </a>
