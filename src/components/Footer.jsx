@@ -45,7 +45,7 @@ function Footer() {
             </div>
             <button
                 onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}
-                className="fixed bottom-4 right-4 bg-burnt-orange text-white p-2 rounded-full shadow-lg hover:bg-dark-purple focus:outline-none"
+                className="fixed bottom-4 right-4 bg-burnt-orange text-white p-2 rounded-full shadow-lg hover:bg-dark-purple focus:outline-none transition duration-300"
             >
                 ↑
             </button>
