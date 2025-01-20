@@ -1,4 +1,3 @@
-import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
@@ -10,7 +9,7 @@ import Projects from "./pages/Projects.jsx";
 
 function App() {
     return (
-        <Router basename={"/portfolio"}>
+        <Router basename={"/portfolio/"}>
             <div className="min-h-screen flex flex-col bg-white-smoke">
                 <Header/>
                 <main className="flex-grow">
