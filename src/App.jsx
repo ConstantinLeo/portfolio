@@ -11,15 +11,19 @@ import Projects from "./pages/Projects.jsx";
 function App() {
     return (
         <Router>
-            <Header />
-            <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/projects" element={<Projects />} />
-                <Route path="/experience" element={<Experience />} />
-                <Route path="/formation" element={<Formation />} />
-                <Route path="/contact" element={<Contact />} />
-            </Routes>
-            <Footer />
+            <div className="min-h-screen flex flex-col bg-white-smoke">
+                <Header/>
+                <main className="flex-grow">
+                    <Routes>
+                        <Route path="/" element={<Home/>}/>
+                        <Route path="/projects" element={<Projects/>}/>
+                        <Route path="/experience" element={<Experience/>}/>
+                        <Route path="/formation" element={<Formation/>}/>
+                        <Route path="/contact" element={<Contact/>}/>
+                    </Routes>
+                </main>
+                <Footer/>
+            </div>
         </Router>
     );
 }
