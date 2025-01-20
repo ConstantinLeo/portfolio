@@ -10,7 +10,7 @@ import Projects from "./pages/Projects.jsx";
 
 function App() {
     return (
-        <Router>
+        <Router basename={"/portfolio"}>
             <div className="min-h-screen flex flex-col bg-white-smoke">
                 <Header/>
                 <main className="flex-grow">
