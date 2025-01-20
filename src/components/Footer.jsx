@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import { FaPhone, FaFilePdf, FaLinkedin, FaGithub } from "react-icons/fa";
 
@@ -17,7 +16,7 @@ function Footer() {
                 {/* Logo et droits */}
                 <div className="text-center">
                     <div className="flex justify-center mb-3">
-                        <img src={"../../public/logo.png"} alt="Logo" className="h-10 w-auto transition-transform duration-300 hover:scale-110" />
+                        <img src={"./logo.png"} alt="Logo" className="h-10 w-auto transition-transform duration-300 hover:scale-110" />
                     </div>
                     <p className="text-sm text-slate-gray">&copy; {new Date().getFullYear()} Léo CONSTANTIN. Tous droits
                         réservés.</p>
@@ -25,11 +24,10 @@ function Footer() {
 
                 {/* Réseaux sociaux et autres */}
                 <div className="flex justify-center md:justify-end space-x-4">
-                    <a href="../pages/contact" rel="noopener noreferrer"
-                       className="hover:text-burnt-orange">
-                        <FaPhone size={24}/>
-                    </a>
-                    <a href="../../public/documents/CV-CONSTANTIN-Leo.pdf" target="_blank" rel="noopener noreferrer"
+                    <Link to="/contact" className="hover:text-burnt-orange">
+                        <FaPhone size={24} />
+                    </Link>
+                    <a href="./documents/CV-CONSTANTIN-Leo.pdf" target="_blank" rel="noopener noreferrer"
                        className="hover:text-burnt-orange">
                         <FaFilePdf size={24}/>
                     </a>

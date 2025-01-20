@@ -1,4 +1,3 @@
-import React from "react";
 import {FaEye} from "react-icons/fa";
 
 function Formation() {
@@ -32,7 +31,7 @@ function Formation() {
                 </div>
                 <div className="mt-12 text-center">
                     <a
-                        href="../../public/documents/CV-CONSTANTIN-Leo.pdf"
+                        href="./documents/CV-CONSTANTIN-Leo.pdf"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="inline-flex items-center bg-burnt-orange text-white py-2 px-6 rounded-full hover:bg-dark-purple transition duration-300"
