@@ -52,6 +52,7 @@ function Experiences() {
                                 <p>BDE Informatique, IUT Montpellier-Sète (34)</p>
                                 <p>Implication dans la vie étudiante du département Informatique de l'IUT de
                                     Montpellier.</p>
+                                <p>En parallèle avec le BUT Informatique.</p>
                             </div>
                         </div>
                         <div className="timeline-item flex flex-col items-center">
