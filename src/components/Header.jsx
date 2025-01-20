@@ -10,7 +10,7 @@ function Header() {
             <div className="container mx-auto px-4 py-3 flex items-center justify-between">
                 <h1 className="text-lg font-bold">Léo CONSTANTIN</h1>
                 <nav className="hidden md:flex space-x-6 text-slate-gray">
-                    <Link to="/" className="hover:text-burnt-orange">Accueil</Link>
+                    <Link to="/" className="hover:text-burnt-orange">A propos</Link>
                     <Link to="/formation" className="hover:text-burnt-orange">Formation</Link>
                     <Link to="/experience" className="hover:text-burnt-orange">Expériences</Link>
                     <Link to="/projects" className="hover:text-burnt-orange">Projets</Link>
