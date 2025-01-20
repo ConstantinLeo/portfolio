@@ -8,7 +8,7 @@ function Home() {
             <section className="py-12 bg-white-smoke text-dark-purple text-center">
                 <div className="container mx-auto px-4">
                     <div className="flex flex-col md:flex-row items-center justify-between">
-                        <img src="/images/Photo-CONSTANTIN-Leo.png" alt="Ma Photo" className="rounded-full h-40 w-40 mb-4 md:mb-0"/>
+                        <img src="../../public/images/Photo-CONSTANTIN-Leo.png" alt="Ma Photo" className="rounded-full h-40 w-40 mb-4 md:mb-0"/>
                         <div className="md:w-2/3">
                             <h1 className="text-3xl font-bold">Salut ! Je me présente, Léo CONSTANTIN</h1>
                             <p className="mt-4 text-lg">
@@ -45,7 +45,7 @@ function Home() {
                     </div>
                     <div className="mt-8 lg:mt-0 lg:w-1/2 flex justify-center">
                         <img
-                            src="/images/personnalite.png"
+                            src="../../public/images/personnalite.png"
                             alt="Image illustrant la personnalité"
                             className="max-w-56 h-auto rounded-lg"
                         />
