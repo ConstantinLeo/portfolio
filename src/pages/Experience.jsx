@@ -7,7 +7,7 @@ function Experiences() {
             {/* Section Experience */}
             <section className="py-12 bg-white-smoke">
                 <div className="container mx-auto px-4 text-center">
-                    <h2 className="text-3xl font-bold text-dark-purple">Mes Expériences Professionnelles</h2>
+                    <h2 className="text-3xl font-bold text-dark-purple">Mes expériences professionnelles</h2>
                     <div className="mt-6 flex flex-col space-y-8">
                         <div className="timeline-item flex flex-col items-center">
                             <div className="date bg-burnt-orange text-white p-2 rounded-full">Juillet 2023 - Juillet
@@ -43,7 +43,7 @@ function Experiences() {
                     </div>
                 </div>
                 <div className="container mt-9 mx-auto px-4 text-center">
-                    <h2 className="text-3xl font-bold text-dark-purple">Mes Engagements Bénévoles</h2>
+                    <h2 className="text-3xl font-bold text-dark-purple">Mes engagements bénévoles</h2>
                     <div className="mt-6 flex flex-col space-y-8">
                         <div className="timeline-item flex flex-col items-center">
                             <div className="date bg-burnt-orange text-white p-2 rounded-full">Mars 2023 - Avril 2024</div>
