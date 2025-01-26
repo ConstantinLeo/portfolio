@@ -8,7 +8,7 @@ function Projects() {
             <section className="py-12 bg-white-smoke">
                 <div className="container mx-auto px-4">
                     <h2 className="text-3xl font-bold text-dark-purple mb-8 text-center">
-                        Mes Projets
+                        Mes projets
                     </h2>
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                         <Link
