@@ -12,7 +12,7 @@ function Projects() {
                     </h2>
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                         <Link
-                            to="./projets/Rails.jsx"
+                            to="/projets/rails"
                             className="group block bg-white rounded-lg shadow-md hover:shadow-lg transition duration-300"
                         >
                             <img
@@ -30,7 +30,7 @@ function Projects() {
                             </div>
                         </Link>
                         <Link
-                            to="./projets/Encheres.jsx"
+                            to="/projets/encheres"
                             className="group block bg-white rounded-lg shadow-md hover:shadow-lg transition duration-300"
                         >
                             <img
@@ -48,7 +48,7 @@ function Projects() {
                             </div>
                         </Link>
                         <Link
-                            to="./projets/Escapegame.jsx"
+                            to="/projets/escapegame"
                             className="group block bg-white rounded-lg shadow-md hover:shadow-lg transition duration-300"
                         >
                             <img
