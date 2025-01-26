@@ -14,7 +14,7 @@ function Escapegame() {
                     afin d'observer si les exigences étaient bien accomplies.
                 </p>
                 <h2 className="text-2xl font-semibold text-dark-purple mb-4">
-                    Explication du jeu développé
+                    Explication de la conception du site Web pour l'Escape Game
                 </h2>
                 <p className="text-lg text-slate-gray mb-4">
                     Le projet a débuté par une demande spécifique du groupe qui souhaitait organiser un escape game dans
