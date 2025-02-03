@@ -10,7 +10,7 @@ function Footer() {
                     <Link to="/" className="block text-slate-gray hover:text-burnt-orange">A propos</Link>
                     <Link to="/formation" className="block text-slate-gray hover:text-burnt-orange">Formation</Link>
                     <Link to="/experience" className="block text-slate-gray hover:text-burnt-orange">Expériences</Link>
-                    <Link to="/projects" className="block text-slate-gray hover:text-burnt-orange">Projets</Link>
+                    <Link to="/projets" className="block text-slate-gray hover:text-burnt-orange">Projets</Link>
                 </div>
 
                 {/* Logo et droits */}
@@ -27,7 +27,7 @@ function Footer() {
                     <Link to="/contact" className="hover:text-burnt-orange">
                         <FaPhone size={24} />
                     </Link>
-                    <a href="./documents/CV-CONSTANTIN-Leo.pdf" target="_blank" rel="noopener noreferrer"
+                    <a href="/portfolio/documents/CV-CONSTANTIN-Leo.pdf" target="_blank" rel="noopener noreferrer"
                        className="hover:text-burnt-orange">
                         <FaFilePdf size={24}/>
                     </a>

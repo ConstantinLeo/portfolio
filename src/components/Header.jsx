@@ -13,7 +13,7 @@ function Header() {
                     <Link to="/" className="hover:text-burnt-orange">A propos</Link>
                     <Link to="/formation" className="hover:text-burnt-orange">Formation</Link>
                     <Link to="/experience" className="hover:text-burnt-orange">Expériences</Link>
-                    <Link to="/projects" className="hover:text-burnt-orange">Projets</Link>
+                    <Link to="/projets" className="hover:text-burnt-orange">Projets</Link>
                     <Link to="/contact" className="hover:text-burnt-orange">Contact</Link>
                 </nav>
                 {/* Menu burger */}
@@ -32,7 +32,7 @@ function Header() {
                         <Link to="/" className="hover:text-burnt-orange" onClick={() => setMenuOpen(false)}>A propos</Link>
                         <Link to="/formation" className="hover:text-burnt-orange" onClick={() => setMenuOpen(false)}>Formation</Link>
                         <Link to="/experience" className="hover:text-burnt-orange" onClick={() => setMenuOpen(false)}>Expériences</Link>
-                        <Link to="/projects" className="hover:text-burnt-orange" onClick={() => setMenuOpen(false)}>Projets</Link>
+                        <Link to="/projets" className="hover:text-burnt-orange" onClick={() => setMenuOpen(false)}>Projets</Link>
                         <Link to="/contact" className="hover:text-burnt-orange" onClick={() => setMenuOpen(false)}>Contact</Link>
                     </nav>
                 </div>
