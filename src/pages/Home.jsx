@@ -25,14 +25,13 @@ function Home() {
                 <div className="container mx-auto px-4 flex flex-col lg:flex-row items-center">
                     <div className="text-center lg:text-left lg:w-2/3">
                         <h2 className="text-2xl font-bold text-dark-purple">Ma personnalité</h2>
-                        <p className="text-slate-gray mt-4 text-lg"> Avec un profil extraverti, je suis naturellement
-                            sociable et énergique, toujours en quête de nouvelles interactions et opportunités pour
-                            inspirer les autres. Mon sens de l'écoute et ma capacité à comprendre les besoins des autres
+                        <p className="text-slate-gray mt-4 text-lg"> Avec un profil extraverti, je suis de nature
+                            sociable et énergique, toujours en quête de nouvelles rencontres et d'événements marquants pour
+                            me développer personnellement. Mon empathie et ma capacité à comprendre les besoins des autres
                             me poussent à créer des liens forts.</p>
                         <p className="text-slate-gray mt-4 text-lg">Mon côté intuitif me permet d'anticiper les
-                            situations et de voir au-delà des apparences. J'exprime mes idées avec assurance et préfère
-                            souvent prendre des décisions basées sur mes valeurs, cherchant à encourager harmonie et
-                            équilibre autour de moi.</p>
+                            situations et de m'adapter rapidement aux imprévus afin de prendre les meilleures décisions. J'exprime mes idées avec assurance et préfère
+                            souvent prendre des décisions basées sur mes valeurs, cherchant à rester fidèle à mes convictions.</p>
                         <a
                             href="https://www.16personalities.com/fr/la-personnalite-enfj"
                             target="_blank"
@@ -57,7 +56,7 @@ function Home() {
             <section className="py-12 bg-white-smoke">
                 <div className="container mx-auto px-4 text-center">
                     <h2 className="text-2xl font-bold text-dark-purple">Ma vision pour la suite</h2>
-                    <p className="mt-4 text-lg text-slate-gray">Mon objectif est de rejoindre l'armée française pour m'engager pleinement dans des missions humanitaires et de service public. Contribuer à des causes qui me tiennent à cœur, comme la sécurité et l'aide humanitaire, est pour moi une priorité. L'armée représente un moyen concret d’agir pour le bien-être des autres tout en développant des compétences de leadership et d'esprit d’équipe.</p>
+                    <p className="mt-4 text-lg text-slate-gray">Mon objectif est de rejoindre l'armée française pour m'engager pleinement dans des missions humanitaires et de service public. Contribuer à des causes qui me tiennent à cœur, comme la sécurité et l'aide humanitaire, est pour moi une priorité. L'armée représente un moyen concret d’agir pour le bien-être des autres, tout en me développant personnellement en termes de dépassement de soi et d'entraide.</p>
                     <p className="mt-4 text-lg text-slate-gray">Si je me suis initialement orienté vers l'informatique, c’était par curiosité et intérết envers l'évolution du numérique et des nouvelles technologies. Cependant, ma volonté d’apporter un impact direct sur le terrain et d’être au service des autres me conduit peu à peu à choisir la voie militaire, où je pourrai allier engagement personnel et causes humanitaires.</p>
                 </div>
             </section>
