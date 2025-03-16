@@ -10,7 +10,7 @@ function Home() {
                     <div className="flex flex-col md:flex-row items-center justify-between">
                         <img src="./images/Photo-CONSTANTIN-Leo.png" alt="Ma Photo" className="rounded-full h-40 w-40 mb-4 md:mb-0"/>
                         <div className="md:w-2/3">
-                            <h1 className="text-3xl font-bold">Salut ! Je me présente, Léo CONSTANTIN</h1>
+                            <h1 className="text-3xl font-bold">Bonjour ! Je m'appelle Léo CONSTANTIN</h1>
                             <p className="mt-4 text-lg">
                                 Intéressé par l'Informatique depuis petit, j'ai toujours été curieux de découvrir et d'apprendre sans cesse dans ce domaine.
                                 Je me suis alors dirigé naturellement vers un BUT Informatique à Montpellier, pour faire de ma passion un métier.

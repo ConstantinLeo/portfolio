@@ -9,6 +9,7 @@ import Projects from "./pages/Projects.jsx";
 import Escapegame from "./pages/projets/Escapegame.jsx";
 import Encheres from "./pages/projets/Encheres.jsx";
 import Rails from "./pages/projets/Rails.jsx";
+import Apprentissage from "./pages/Apprentissage.jsx";
 
 function App() {
     return (
@@ -18,10 +19,11 @@ function App() {
                 <main className="flex-grow">
                     <Routes>
                         <Route path="/" element={<Home/>}/>
+                        <Route path="/apprentissage" element={<Apprentissage/>}/>
                         <Route path="/projets" element={<Projects/>}/>
-                        <Route path="/projets/rails" element={<Rails />} />
-                        <Route path="/projets/encheres" element={<Encheres />} />
-                        <Route path="/projets/escapegame" element={<Escapegame />} />
+                        <Route path="/projets/rails" element={<Rails/>} />
+                        <Route path="/projets/encheres" element={<Encheres/>} />
+                        <Route path="/projets/escapegame" element={<Escapegame/>} />
                         <Route path="/experience" element={<Experience/>}/>
                         <Route path="/formation" element={<Formation/>}/>
                         <Route path="/contact" element={<Contact/>}/>
