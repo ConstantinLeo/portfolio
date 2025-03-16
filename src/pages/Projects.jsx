@@ -8,11 +8,11 @@ function Projects() {
             <section className="py-12 bg-white-smoke">
                 <div className="container mx-auto px-4">
                     <h2 className="text-3xl font-bold text-dark-purple mb-8 text-center">
-                        Mes projets
+                        Mes réalisations
                     </h2>
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                         <Link
-                            to="/projets/rails"
+                            to="/realisations/rails"
                             className="group block bg-white rounded-lg shadow-md hover:shadow-lg transition duration-300"
                         >
                             <img
@@ -30,7 +30,7 @@ function Projects() {
                             </div>
                         </Link>
                         <Link
-                            to="/projets/encheres"
+                            to="/realisations/encheres"
                             className="group block bg-white rounded-lg shadow-md hover:shadow-lg transition duration-300"
                         >
                             <img
@@ -48,7 +48,7 @@ function Projects() {
                             </div>
                         </Link>
                         <Link
-                            to="/projets/escapegame"
+                            to="/realisations/escapegame"
                             className="group block bg-white rounded-lg shadow-md hover:shadow-lg transition duration-300"
                         >
                             <img

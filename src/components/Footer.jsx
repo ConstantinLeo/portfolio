@@ -10,7 +10,7 @@ function Footer() {
                     <Link to="/" className="block text-slate-gray hover:text-burnt-orange">A propos</Link>
                     <Link to="/formation" className="block text-slate-gray hover:text-burnt-orange">Formation</Link>
                     <Link to="/experience" className="block text-slate-gray hover:text-burnt-orange">Expériences</Link>
-                    <Link to="/projets" className="block text-slate-gray hover:text-burnt-orange">Projets</Link>
+                    <Link to="/realisations" className="block text-slate-gray hover:text-burnt-orange">Réalisations</Link>
                 </div>
 
                 {/* Logo et droits */}

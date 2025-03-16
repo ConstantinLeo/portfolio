@@ -20,10 +20,10 @@ function App() {
                     <Routes>
                         <Route path="/" element={<Home/>}/>
                         <Route path="/apprentissage" element={<Apprentissage/>}/>
-                        <Route path="/projets" element={<Projects/>}/>
-                        <Route path="/projets/rails" element={<Rails/>} />
-                        <Route path="/projets/encheres" element={<Encheres/>} />
-                        <Route path="/projets/escapegame" element={<Escapegame/>} />
+                        <Route path="/realisations" element={<Projects/>}/>
+                        <Route path="/realisations/rails" element={<Rails/>} />
+                        <Route path="/realisations/encheres" element={<Encheres/>} />
+                        <Route path="/realisations/escapegame" element={<Escapegame/>} />
                         <Route path="/experience" element={<Experience/>}/>
                         <Route path="/formation" element={<Formation/>}/>
                         <Route path="/contact" element={<Contact/>}/>

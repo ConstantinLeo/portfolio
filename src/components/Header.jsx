@@ -17,7 +17,7 @@ function Header() {
                     <Link to="/" className="hover:text-burnt-orange">A propos</Link>
                     <Link to="/formation" className="hover:text-burnt-orange">Formation</Link>
                     <Link to="/experience" className="hover:text-burnt-orange">Expériences</Link>
-                    <Link to="/projets" className="hover:text-burnt-orange">Projets</Link>
+                    <Link to="/realisations" className="hover:text-burnt-orange">Réalisations</Link>
                     <Link to="/contact" className="hover:text-burnt-orange">Contact</Link>
                 </nav>
                 {/* Menu burger */}
@@ -33,14 +33,14 @@ function Header() {
             {menuOpen && (
                 <div className="md:hidden bg-gray-50 shadow-md">
                     <nav className="flex items-center flex-col space-y-2 p-4">
-                        <Link to="/apprentissage" className="relative font-bold text-burnt-orange px-4 py-2 rounded-lg border border-burnt-orange hover:bg-burnt-orange hover:text-white transition">
+                        <Link to="/apprentissage" className="relative font-bold text-burnt-orange px-4 py-2 rounded-lg border border-burnt-orange hover:bg-burnt-orange hover:text-white transition" onClick={() => setMenuOpen(false)}>
                             Portfolio d'Apprentissage
                             <span className="absolute top-0 right-0 text-xs bg-red-600 text-white px-2 py-1 rounded-full -mt-2 -mr-2">NEW</span>
                         </Link>
                         <Link to="/" className="hover:text-burnt-orange" onClick={() => setMenuOpen(false)}>A propos</Link>
                         <Link to="/formation" className="hover:text-burnt-orange" onClick={() => setMenuOpen(false)}>Formation</Link>
                         <Link to="/experience" className="hover:text-burnt-orange" onClick={() => setMenuOpen(false)}>Expériences</Link>
-                        <Link to="/projets" className="hover:text-burnt-orange" onClick={() => setMenuOpen(false)}>Projets</Link>
+                        <Link to="/realisations" className="hover:text-burnt-orange" onClick={() => setMenuOpen(false)}>Réalisations</Link>
                         <Link to="/contact" className="hover:text-burnt-orange" onClick={() => setMenuOpen(false)}>Contact</Link>
                     </nav>
                 </div>
