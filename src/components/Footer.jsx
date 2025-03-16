@@ -9,7 +9,7 @@ function Footer() {
                 <div className="space-y-2 text-center lg:text-left">
                     <Link to="/" className="block text-slate-gray hover:text-burnt-orange">A propos</Link>
                     <Link to="/formation" className="block text-slate-gray hover:text-burnt-orange">Formation</Link>
-                    <Link to="/experience" className="block text-slate-gray hover:text-burnt-orange">Expériences</Link>
+                    <Link to="/experiences" className="block text-slate-gray hover:text-burnt-orange">Expériences</Link>
                     <Link to="/realisations" className="block text-slate-gray hover:text-burnt-orange">Réalisations</Link>
                 </div>
 

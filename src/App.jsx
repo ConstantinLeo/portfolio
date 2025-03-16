@@ -24,7 +24,7 @@ function App() {
                         <Route path="/realisations/rails" element={<Rails/>} />
                         <Route path="/realisations/encheres" element={<Encheres/>} />
                         <Route path="/realisations/escapegame" element={<Escapegame/>} />
-                        <Route path="/experience" element={<Experience/>}/>
+                        <Route path="/experiences" element={<Experience/>}/>
                         <Route path="/formation" element={<Formation/>}/>
                         <Route path="/contact" element={<Contact/>}/>
                     </Routes>
